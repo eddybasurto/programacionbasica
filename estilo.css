@@ -1,0 +1,15 @@
+html{
+ background-color:darkseagreen ;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: darkcyan;
+  }
+  
+  p {
+    font-size: 22px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgb(224, 39, 39);
+  }

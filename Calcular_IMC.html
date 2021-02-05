@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Calcula tu IMC </title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Calcula tu índice de Masa Corporal(IMC)</h1>
+    <p>El IMC se utiliza para clasificar el estado ponderal de la persona, 
+      y se calcula a partir de la fórmula: peso(kg)/talla(m2).</p>
+      <form id="formu" name="formu" onsubmit="return calculaImc()">
+        <label for="peso">Introduce tu peso:</label><br>
+        <input type="text" id="peso" name="peso"><br>
+        <label for="altura">Introduce tu altura:</label><br>
+        <input type="text" id="altura" name="altura"><br>
+        <input type="submit" value="Calcular IMC">
+      </form>
+      <script src="calculaimc.js" language="javascript" type="text/javascript"></script>
+  </body>
+</html>
