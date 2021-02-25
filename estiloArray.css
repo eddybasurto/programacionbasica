@@ -1,0 +1,24 @@
+html{
+    background-color:cadetblue ;
+   }
+h1 {
+    font-size: 80px;
+    text-align:center ;
+    color:crimson;
+}
+p{
+    font-size: 50px;
+    text-align:left ;
+    font-weight: bold;
+    color:sandybrown;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightseagreen;
+    margin: 0 auto;
+    width: 50 px;
+    padding:1em ;
+    border:1px solid #FFA;
+    border-radius:1em ;
+    font-weight: bold;
+}
